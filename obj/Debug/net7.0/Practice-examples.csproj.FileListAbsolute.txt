@@ -1,0 +1,15 @@
+/Users/C_sharp_learning/Practice-examples/bin/Debug/net7.0/Practice-examples
+/Users/C_sharp_learning/Practice-examples/bin/Debug/net7.0/Practice-examples.deps.json
+/Users/C_sharp_learning/Practice-examples/bin/Debug/net7.0/Practice-examples.runtimeconfig.json
+/Users/C_sharp_learning/Practice-examples/bin/Debug/net7.0/Practice-examples.dll
+/Users/C_sharp_learning/Practice-examples/bin/Debug/net7.0/Practice-examples.pdb
+/Users/C_sharp_learning/Practice-examples/obj/Debug/net7.0/Practice-examples.csproj.AssemblyReference.cache
+/Users/C_sharp_learning/Practice-examples/obj/Debug/net7.0/Practice-examples.GeneratedMSBuildEditorConfig.editorconfig
+/Users/C_sharp_learning/Practice-examples/obj/Debug/net7.0/Practice-examples.AssemblyInfoInputs.cache
+/Users/C_sharp_learning/Practice-examples/obj/Debug/net7.0/Practice-examples.AssemblyInfo.cs
+/Users/C_sharp_learning/Practice-examples/obj/Debug/net7.0/Practice-examples.csproj.CoreCompileInputs.cache
+/Users/C_sharp_learning/Practice-examples/obj/Debug/net7.0/Practice-examples.dll
+/Users/C_sharp_learning/Practice-examples/obj/Debug/net7.0/refint/Practice-examples.dll
+/Users/C_sharp_learning/Practice-examples/obj/Debug/net7.0/Practice-examples.pdb
+/Users/C_sharp_learning/Practice-examples/obj/Debug/net7.0/Practice-examples.genruntimeconfig.cache
+/Users/C_sharp_learning/Practice-examples/obj/Debug/net7.0/ref/Practice-examples.dll
