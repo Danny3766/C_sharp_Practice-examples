@@ -4,23 +4,24 @@ namespace Naruto
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("最多輸入10筆資料，程式便結束!!!");
+            Console.WriteLine("建立5位英雄角色!!!");
             int i;
-            for(i = 1;i <= 10;i++)
+            for(i = 1;i <= 5;i++)
             {
                 Hero myHero = new Hero();  //  //產生一個Hero類別，名稱叫myHero，概念如int X，賦予myHero一個記憶體空間
                 Console.WriteLine($"{Environment.NewLine}這是第{i}筆輸入資料");
-                Console.WriteLine("請輸入你的名字：");
+                Console.WriteLine("請輸入角色名字：");
                 myHero.name = Console.ReadLine();
-                Console.WriteLine("請輸入你的國家：");
+                Console.WriteLine("請輸入角色的村莊：  (木葉村、沙忍村、雷忍村、岩忍村、水忍村)");
                 myHero.country = Console.ReadLine();
-                Console.WriteLine("請輸入你的年紀：");
+                Console.WriteLine("請輸入角色的年紀：");
                 int age;
                 while (!int.TryParse(Console.ReadLine(), out age))
                 {
                     Console.WriteLine("請輸入有效的年紀(整數數字)：");
                 }
                 myHero.age = age;
+                Console.WriteLine($"{Environment.NewLine}");
                 myHero.print();
                 myHero.attack();
                 Console.WriteLine($"{Environment.NewLine}");
@@ -52,7 +53,7 @@ namespace Naruto
         // 不傳遞參數的方法
         public void attack()
         {
-            Console.WriteLine($"{name}  出招了!!!");
+            Console.WriteLine($"{name}  使出招式了!!!");
         }
 
         // 印出所有 Hero 的屬性
