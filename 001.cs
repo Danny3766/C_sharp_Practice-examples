@@ -6,9 +6,10 @@ namespace Naruto
         {
             Console.WriteLine("最多輸入10筆資料，程式便結束!!!");
             int i;
-            for(i = 0;i < 10;i++)
+            for(i = 1;i <= 10;i++)
             {
                 Hero myHero = new Hero();  //  //產生一個Hero類別，名稱叫myHero，概念如int X，賦予myHero一個記憶體空間
+                Console.WriteLine($"{Environment.NewLine}這是第{i}筆輸入資料");
                 Console.WriteLine("請輸入你的名字：");
                 myHero.name = Console.ReadLine();
                 Console.WriteLine("請輸入你的國家：");
@@ -45,13 +46,13 @@ namespace Naruto
         // 傳遞參數的方法
         public void life(string name, int age)
         {
-            Console.WriteLine($"{name}的年紀是{age}歲");
+            Console.WriteLine($"{name}的年紀是 {age} 歲");
         }
 
         // 不傳遞參數的方法
         public void attack()
         {
-            Console.WriteLine($"{name}出招了!!!");
+            Console.WriteLine($"{name}  出招了!!!");
         }
 
         // 印出所有 Hero 的屬性
